@@ -3,7 +3,7 @@ import random
 
 #Roulette
         if message.content == "help roulette":
-            await message.channel.send("Für Roulette: *roulette gesetzt eingeben, wobei gesetzt = \n schwarz \n rot \n 0 \n sein muss.")
+            await message.channel.send("Für Roulette: roulette gesetzt eingeben, wobei gesetzt = \n schwarz \n rot \n 0 \n sein muss.")
 
         if message.content.startswith("roulette"):
             gesetzt = message.content.split(' ')[1]
